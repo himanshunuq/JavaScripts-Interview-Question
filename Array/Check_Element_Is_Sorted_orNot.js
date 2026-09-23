@@ -16,3 +16,18 @@ for (let i = 1; i < arr2.length; i++) {
   }
 }
 console.log(isSorted);
+
+// using every
+const checked = arr2.every((value, index) => {
+  return index === 0 || value >= arr2[index];
+});
+
+console.log(checked);
+
+/*
+12 → index 0 → automatically true
+13 >= 12 → true
+14 >= 13 → true
+15 >= 14 → true
+16 >= 15 → true
+*/
