@@ -13,6 +13,7 @@ const arr2 = [12, 13, 14, 15, 16];
 for (let i = 1; i < arr2.length; i++) {
   if (arr2[i] < arr2[i - 1]) {
     isSorted = false;
+    break;
   }
 }
 console.log(isSorted);
