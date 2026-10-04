@@ -13,3 +13,19 @@ if (str === p) {
 } else {
   console.log("nahi hai re bhai pali");
 }
+
+// Mehod 2
+
+const userValue = "naman";
+
+let checkValue = "";
+
+for (let v of userValue) {
+  checkValue = v + checkValue;
+}
+
+console.log(checkValue);
+
+if (userValue === checkValue) {
+  console.log("Yes, this is a palindrome:", checkValue);
+}
