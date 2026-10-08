@@ -26,3 +26,14 @@ obj.display();
 
 output undefine
 */
+
+// undefine
+const obj22 = {
+  name: "himanshu",
+  arrow: () => {
+    return this.name;
+  },
+};
+
+let c = obj22.arrow();
+console.log(c);
