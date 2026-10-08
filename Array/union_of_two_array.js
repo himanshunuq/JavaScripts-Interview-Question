@@ -14,7 +14,7 @@ const newArray = [];
 console.log(d); // [ 1, 2, 2, 3 ]
 
 for (let j of d) {
-  if (!newArray.includes(d[j])) {
+  if (!newArray.includes(j)) {
     newArray.push(j);
   }
 }

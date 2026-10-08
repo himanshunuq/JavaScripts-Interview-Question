@@ -16,6 +16,7 @@ for (let i = 1; i < arr2.length; i++) {
     break;
   }
 }
+
 console.log(isSorted);
 
 // using every
