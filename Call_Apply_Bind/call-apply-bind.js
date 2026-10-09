@@ -22,5 +22,5 @@ displayDetails.apply(obj1, ["applyRanchi", "applyJharkhand"]);
 displayDetails.apply(obj2, ["applyBareli", "applyUttarPradesh"]);
 
 // bind
-const demoBind = displayDetails.call(obj1, "Bind+Patan", "Bihar-1900's");
+const demoBind = displayDetails.bind(obj1, "Bind+Patan", "Bihar-1900's");
 demoBind;
